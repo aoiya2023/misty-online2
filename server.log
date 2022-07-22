@@ -1,0 +1,33 @@
+2022-07-13 16:10:34,126 Scheduler started
+2022-07-13 16:15:03,112 Scheduler started
+2022-07-14 13:49:55,212 Scheduler started
+2022-07-15 19:15:18,286 Scheduler started
+[2022-07-15 22:49:53 -0700] [1102] [CRITICAL] WORKER TIMEOUT (pid:1104)
+2022-07-15 22:49:59,771 Scheduler started
+2022-07-18 13:05:10,326 Scheduler started
+[2022-07-18 21:10:45 -0700] [1274] [CRITICAL] WORKER TIMEOUT (pid:1276)
+2022-07-18 21:10:50,610 Scheduler started
+2022-07-19 08:46:06,954 Scheduler started
+[2022-07-19 11:57:35 -0700] [673] [CRITICAL] WORKER TIMEOUT (pid:676)
+2022-07-19 12:13:18,309 Scheduler started
+2022-07-21 14:47:31,251 Scheduler started
+2022-07-14 14:35:18,362 Scheduler started
+2022-07-14 15:01:54,426 Scheduler started
+2022-07-14 15:31:51,172 hit_assign_worker_id_not_set_in_exp (1003) {'event_description': 'q'}
+[2022-07-14 19:51:13 -0700] [3084] [CRITICAL] WORKER TIMEOUT (pid:3086)
+2022-07-14 19:51:24,210 Scheduler started
+[2022-07-14 20:01:45 -0700] [3084] [CRITICAL] WORKER TIMEOUT (pid:4981)
+[2022-07-14 20:02:21 -0700] [3084] [CRITICAL] WORKER TIMEOUT (pid:5054)
+2022-07-14 20:02:22,650 Scheduler started
+[2022-07-14 21:50:55 -0700] [3084] [CRITICAL] WORKER TIMEOUT (pid:5126)
+2022-07-14 21:50:56,503 Scheduler started
+2022-07-18 15:32:45,486 Scheduler started
+2022-07-21 12:07:46,700 Scheduler started
+2022-07-21 14:42:31,109 Scheduler started
+2022-07-21 14:47:25,213 Scheduler started
+2022-07-21 22:58:28,955 Scheduler started
+2022-07-22 06:12:44,240 Scheduler started
+2022-07-22 07:49:19,493 Scheduler started
+2022-07-22 08:08:32,585 Scheduler started
+2022-07-22 11:00:52,823 Scheduler started
+2022-07-22 11:43:00,060 Scheduler started

@@ -1,0 +1,101 @@
+
+
+<style>
+
+    th {
+        text-align: center;
+        height: 60px;;
+    }
+    
+    p {
+        font-size: 14pt;
+    }
+
+</style>
+
+
+<div id="container-instructions">
+
+    <p>Please indicate the extent to which you agree or disagree with each of the following statements.</p>
+
+    <div class="instructions well">
+        
+    <table id="likert" width=100%>
+    
+     <tr>
+         <td><label> </label></td>
+         <th><label>Strongly<br/>disagree</label></th>
+         <th><label>Disagree</label></th>
+         <th><label>Neutral</label></th>
+         <th><label>Agree</label></th>
+         <th><label>Strongly<br/>agree</label></th>
+     </tr>
+     
+     <tr>
+         <td><label>I am interested in learning more about robotics.</label></td>
+         <th><label><input type="radio" name="post_interest1" value="1" /></label></th>
+         <th><label><input type="radio" name="post_interest1" value="2" /></label></th>
+         <th><label><input type="radio" name="post_interest1" value="3" /></label></th>
+         <th><label><input type="radio" name="post_interest1" value="4" /></label></th>
+         <th><label><input type="radio" name="post_interest1" value="5" /></label></th>
+     </tr>
+     
+     <tr>
+         <td><label>I would enjoy working with robots.</label></td>
+         <th><label><input type="radio" name="post_interest2" value="1" /></label></th>
+         <th><label><input type="radio" name="post_interest2" value="2" /></label></th>
+         <th><label><input type="radio" name="post_interest2" value="3" /></label></th>
+         <th><label><input type="radio" name="post_interest2" value="4" /></label></th>
+         <th><label><input type="radio" name="post_interest2" value="5" /></label></th>
+     </tr>
+     
+     <tr>
+         <td><label>Girls find it harder to understand computer science<br/>and robots than boys do.</label></td>
+         <th><label><input type="radio" name="post_interest3" value="1" /></label></th>
+         <th><label><input type="radio" name="post_interest3" value="2" /></label></th>
+         <th><label><input type="radio" name="post_interest3" value="3" /></label></th>
+         <th><label><input type="radio" name="post_interest3" value="4" /></label></th>
+         <th><label><input type="radio" name="post_interest3" value="5" /></label></th>
+     </tr>
+     
+     <tr>
+         <td><label>It is important to encourage girls to study computer<br/>science and robotics.</label></td>
+         <th><label><input type="radio" name="post_interest4" value="1" /></label></th>
+         <th><label><input type="radio" name="post_interest4" value="2" /></label></th>
+         <th><label><input type="radio" name="post_interest4" value="3" /></label></th>
+         <th><label><input type="radio" name="post_interest4" value="4" /></label></th>
+         <th><label><input type="radio" name="post_interest4" value="5" /></label></th>
+     </tr>
+     
+     <tr>
+         <td><label>The robot Sara would be very good at getting young<br/>people interested in studying robotics at the<br/>university KTH.</label></td>
+         <th><label><input type="radio" name="post_interest5" value="1" /></label></th>
+         <th><label><input type="radio" name="post_interest5" value="2" /></label></th>
+         <th><label><input type="radio" name="post_interest5" value="3" /></label></th>
+         <th><label><input type="radio" name="post_interest5" value="4" /></label></th>
+         <th><label><input type="radio" name="post_interest5" value="5" /></label></th>
+     </tr>     
+     
+     </table>
+
+    </div>
+
+    <hr />
+
+
+   <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            	<!-- no previous button -->
+            </div>
+            <div class="col-xs-8">	      
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" disabled="disabled">
+                 <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>

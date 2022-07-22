@@ -1,0 +1,6 @@
+eventdata.csv
+questiondata.csv
+trialdata.csv
+*.csv
+summer2022.db
+*.db

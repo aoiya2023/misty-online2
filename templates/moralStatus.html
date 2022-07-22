@@ -1,0 +1,76 @@
+<!-- "moralStatus.html"  is to make the sliders for the moral status survey -->
+
+
+<div id="container-questionnaire">
+ 
+    <p>
+      On the following scales, please click at the point on each line
+      which best describes your impression of the robot.
+      <span class="response">
+	<br/>
+       <br/>
+
+  <!-- <div class="instructions well"> -->
+
+    <form id="slider_questions" action="">
+    
+    
+    
+      <!-- ------------ beginning of Responsibility question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  	<p>To what extent do you feel a responsiblity to protect the robot from harm?</p>
+		
+	  	<div class="rangeholder">
+	  		<b class="range-label left">None</b> 
+	    		<input type="range" class='not-clicked' id="1" name="1" min="0" max="100">
+	  		<b class="range-label right">Very much so</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>     
+      <!-- xxxxxxxxxxxxxx end of Responsibility question xxxxxxxxxxxxxxx -->
+      <br/>
+      <div>
+        <br/>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <!-- ------------ beginning of Help question ------------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <p>To what extent would you go out of your way to help the robot?</p>
+	
+	 	<div class="rangeholder">
+	  		<b class="range-label left">Never</b> 
+	    		<input type="range" class='not-clicked' id="2" name="2" min="0" max="100">
+	  		<b class="range-label right">Very much so</b>
+		</div>
+	</div>
+	` <br/>
+    <br/>
+    <br/>
+  </div>          
+      <!-- xxxxxxxxxxxxxxx end of Help question xxxxxxxxxxxxxxxx -->
+      
+      
+    </form>
+  <!-- </div> -->
+  
+   
+  <div class="instructionsnav">
+    <div class="row">
+      <div class="col-xs-2">
+      </div>
+      <div class="col-xs-7">
+      </div>
+      <div class="col-xs-3">
+        <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" disabled="disabled">
+          Continue <span class="glyphicon glyphicon-arrow-right"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

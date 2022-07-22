@@ -1,0 +1,119 @@
+<!-- "likabilitySliders.html"  is to make the sliders for the likability survey -->
+
+<div id="container-questionnaire">
+ 
+    <p>
+      On the following scales, please click at the point on each line
+      which best describes your impression of the robot.
+      <span class="response">
+	<br/>
+       <br/>
+
+  <!-- <div class="instructions well"> -->
+
+    <form id="slider_questions" action="">
+    
+    
+    
+      <!-- -------------- beginning of Liking question -------------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  	<p>Do you _____ the robot...</p>
+		
+	  	<div class="rangeholder">
+	  		<b class="range-label left">Dislike</b> 
+	    		<input type="range" class='not-clicked' id="1" name="1" min="0" max="100">
+	  		<b class="range-label right">Like</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>     
+      <!-- xxxxxxxxxxxxxxxx end of Liking question xxxxxxxxxxxxxxxx -->
+      <br/>
+      <!-- ---------- beginning of Friendlieness question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <p>Do you think the robot seems...</p>
+	
+	 	<div class="rangeholder">
+	  		<b class="range-label left">Unfriendly</b> 
+	    		<input type="range" class='not-clicked' id="2" name="2" min="0" max="100">
+	  		<b class="range-label right">Friendly</b>
+		</div>
+	</div>
+	<br/>
+      </div>          
+      <!-- xxxxxxxxxxxxx end of Friendlieness question xxxxxxxxxxxxxx -->
+      <br/>
+      <!-- ---------- beginning of Kindness question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <br/>
+	  <p>Do you think the robot seems...</p>
+	
+	  <div class="rangeholder">
+	  		<b class="range-label left">Unkind</b> 
+	    		<input type="range" class='not-clicked' id="3" name="3" min="0" max="100">
+	  		<b class="range-label right">Kind</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>     	  	      
+      <!-- xxxxxxxxxxxx end of Kindness question xxxxxxxxx -->      
+      <br/>
+      <!-- ---------- beginning of Pleasentness question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <br/>
+	  <p>Do you think the robot seems...</p>
+	
+	<div class="rangeholder">
+	  	<b class="range-label left">Unpleasant</b> 
+	    	<input type="range" class='not-clicked' id="4" name="4" min="0" max="100">
+	  	<b class="range-label right">Pleasant</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>  	   	 
+      <!-- xxxxxxxxxxxxxxx end of Pleasentness question xxxxxxxxxxxxx --> 
+      <br/>
+      <!-- ---------- beginning of Awful question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <br/>
+	  <p>Do you think the robot seems...</p>
+	
+	  <div class="rangeholder">
+	  	<b class="range-label left">Awful</b> 
+	    	<input type="range" class='not-clicked' id="5" name="5" min="0" max="100">
+	  	<b class="range-label right">Nice</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>  	 
+      <!-- xxxxxxxxxxxxxxx end of Awful question xxxxxxxxxxxxx -->
+      <br/>
+      
+      
+    </form>
+  <!-- </div> -->
+  
+   
+  <div class="instructionsnav">
+    <div class="row">
+      <div class="col-xs-2">
+      </div>
+      <div class="col-xs-7">
+      </div>
+      <div class="col-xs-3">
+        <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" disabled="disabled">
+          Continue <span class="glyphicon glyphicon-arrow-right"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

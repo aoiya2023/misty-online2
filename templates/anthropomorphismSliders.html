@@ -1,0 +1,120 @@
+<!-- anthropomorphismSliders.html  is to make the sliders for the anthropomorphism survey -->
+
+
+<div id="container-questionnaire">
+ 
+    <p>
+      On the following scales, please click at the point on each line
+      which best describes your feeling or impression of the robot.
+      <span class="response">
+	<br/>
+       <br/>
+
+  <!-- <div class="instructions well"> -->
+
+    <form id="slider_questions" action="">
+    
+    
+    
+      <!-- -------------- beginning of Fakeness question -------------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  	<p>Do you think the robot seems...</p>
+		
+	  	<div class="rangeholder">
+	  		<b class="range-label left">Fake</b> 
+	    		<input type="range" class='not-clicked' id="1" name="1" min="0" max="100">
+	  		<b class="range-label right">Natural</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>     
+      <!-- xxxxxxxxxxxxxxxx end of Fakeness question xxxxxxxxxxxxxxxx -->
+      <br/>
+      <!-- ------------ beginning of Machinelike question ------------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <p>Do you think the robot seems...</p>
+	
+	 	<div class="rangeholder">
+	  		<b class="range-label left">Machinelike</b> 
+	    		<input type="range" class='not-clicked' id="2" name="2" min="0" max="100">
+	  		<b class="range-label right">Humanlike</b>
+		</div>
+	</div>
+	<br/>
+      </div>          
+      <!-- xxxxxxxxxxxxxxx end of Machinelike question xxxxxxxxxxxxxxxx -->
+      <br/>
+      <!-- ---------- beginning of Unconscoiusness question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <br/>
+	  <p>Do you think the robot seems...</p>
+	
+	  <div class="rangeholder">
+	  		<b class="range-label left">Unconscious</b> 
+	    		<input type="range" class='not-clicked' id="3" name="3" min="0" max="100">
+	  		<b class="range-label right">Conscious</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>     	  	      
+      <!-- xxxxxxxxxxxx end of Unconscoiusness question xxxxxxxxx -->      
+      <br/>
+      <!-- ---------- beginning of Lifelike question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <br/>
+	  <p>Do you think the robot seems...</p>
+	
+	<div class="rangeholder">
+	  	<b class="range-label left">Artificial</b> 
+	    	<input type="range" class='not-clicked' id="4" name="4" min="0" max="100">
+	  	<b class="range-label right">Lifelike</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>  	   	 
+      <!-- xxxxxxxxxxxxxxx end of Lifelike question xxxxxxxxxxxxx --> 
+      <br/>
+      <!-- ---------- beginning of Movement question ----------- -->
+      <div class="row-question">
+        <div class="col-md-8">
+	  <br/>
+	  <p>Do you think the robot seems to...</p>
+	
+	  <div class="rangeholder">
+	  	<b class="range-label left">Move Rigidly</b> 
+	    	<input type="range" class='not-clicked' id="5" name="5" min="0" max="100">
+	  	<b class="range-label right">Move Elegantly</b>
+		</div>
+	</div>
+	<br/>
+	<br/>
+      </div>  	 
+      <!-- xxxxxxxxxxxxxxx end of Movement question xxxxxxxxxxxxx -->
+      <br/>
+      
+      
+    </form>
+  <!-- </div> -->
+  
+   
+  <div class="instructionsnav">
+    <div class="row">
+      <div class="col-xs-2">
+      </div>
+      <div class="col-xs-7">
+      </div>
+      <div class="col-xs-3">
+        <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" disabled="disabled">
+          Continue <span class="glyphicon glyphicon-arrow-right"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

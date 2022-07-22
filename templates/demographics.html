@@ -1,0 +1,74 @@
+<div id="container-instructions">
+
+	<h1>Demographic Information</h1>
+
+	<hr />
+
+	<div class="instructions well">
+        <p>Please indicate with which of the following statements most closely align with your gender identification:</p>
+        <form id="d1" action="">
+                <input type="radio" name="gender" id="genderfluid" value="genderfluid" />
+                <label for="genderfluid">I identify as genderfluid.</label>
+                <br/>
+                <input type="radio" name="gender" id="man" value="man" />
+                <label for="man">I identify as a man.</label>
+                <br/>
+                <input type="radio" name="gender" id="nonbinary" value="nonbinary" />
+                <label for="nonbinary">I identify as non-binary.</label>
+                <br/>
+                <input type="radio" name="gender" id="woman" value="woman" />
+                <label for="woman">I identify as a woman.</label>
+                <br/>
+                <input type="radio" name="gender" id="othergen" value="other" />
+                <label for="othergen">Prefer to self-describe: </label>
+                <input type="text" name="other_gender_text" />
+        </form>
+        
+        <br/>
+        <hr/>
+        <br/>
+        
+        <p>How much prior experience do you have with robots and artificial intelligence (AI)?</p>
+        <form id="d2" action="">
+                <input type="radio" name="experience" id="none" value="no_experience" />
+                <label for="none">I have no prior experience with robots and AI.</label>
+                <br/>
+                <input type="radio" name="experience" id="interested" value="little_experience" />
+                <label for="interested">I am interested in robotics and/or AI as a hobby, but have little formal training.</label>
+                <br/>
+                <input type="radio" name="experience" id="some" value="some_experience" />
+                <label for="some">I have some formal training in robotics and/or AI (e.g. university classes).</label>
+                <br/>
+                <input type="radio" name="experience" id="high_level" value="high_level" />
+                <label for="high_level">I have a career in robotics and/or AI (or an equivalent level of experience).</label>
+                <br/>
+        </form>
+        
+        <br/>
+        <hr/>
+        <br/>
+
+        
+        
+
+    </div>
+
+	<hr />
+
+
+   <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            	<!-- no previous button on first screen -->
+            </div>
+            <div class="col-xs-8">	      
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" disabled="disabled">
+                 <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
